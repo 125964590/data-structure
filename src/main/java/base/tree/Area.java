@@ -1,8 +1,5 @@
 package base.tree;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
 
 /**
@@ -51,20 +48,12 @@ public class Area {
     }
 
     public Long getSecondArea(List<Area> areas, Long id) {
+
         return -1L;
     }
-//
-//    public Area getAreaEntity(List<Area> areas, Long id) {
-//    }
 
-    public static void main(String[] args) throws ParseException {
-        String str = "2018-10-15T12:05:08.526Z";
-        String[] ts = str.split("T", 10);
-        String[] split = ts[1].split("\\.", ts[1].length());
-        String s = ts[0] + split[0];
-        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-ddHH:mm:ss");
-        Date parse = format.parse(s);
-        System.out.println(parse.getTime());
+    public Area getEntity(List<Area> areas, Long id) {
+        return null;
     }
 
 }

@@ -14,11 +14,15 @@ public class BasicSort {
      * 冒泡排序
      * 和每个未排序元素进行比较出最大的,并且传递下去,将结果放到末尾
      *
+     * 算法复杂度:
+     * B:O(1)
+     * D:O(n^2)
+     *
      * @param a 数组
      * @param n 数组长度
      * @return 排序后的集合
      */
-    public static int[] bubbleSort(int[] a, int n) {
+    private static int[] bubbleSort(int[] a, int n) {
         if (n <= 1) {
             return null;
         }
@@ -43,7 +47,7 @@ public class BasicSort {
      * @param n 数组长度
      * @return 排序后的集合
      */
-    public static int[] insertSort(int[] a, int n) {
+    private static int[] insertSort(int[] a, int n) {
         for (int i = 0; i < n; i++) {
             int temp = a[i];
             for (int j = i; j > 0; j--) {
@@ -66,7 +70,7 @@ public class BasicSort {
      * @param n 数组长度
      * @return 排序后集合
      */
-    public static int[] checkSort(int[] a, int n) {
+    private static int[] checkSort(int[] a, int n) {
         for (int i = 0; i < n; i++) {
             int min = i;
             for (int j = i; j < n; j++) {
