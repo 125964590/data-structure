@@ -48,6 +48,13 @@ public class BinaryTree {
         System.out.println(node.data);
     }
 
+    private static TreeNode createTreeByPreOrder(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+
+        }
+        return null;
+    }
+
     public static void main(String[] args) {
         //create tree
         TreeNode treeNode1 = new TreeNode("1", null, null);

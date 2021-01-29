@@ -31,6 +31,20 @@ public class LinkedListAlgo {
         return headNode;
     }
 
+    public static Node linkCycle(Node node) {
+        Node next = null;
+        Node currentNode = node;
+        Node previousNode = node.next;
+        currentNode.next = next;
+        while (previousNode != null) {
+            next = currentNode;
+            currentNode = previousNode;
+            previousNode = currentNode.next;
+            currentNode.next = next;
+        }
+        return currentNode;
+    }
+
     // 检测环
     public static boolean checkCircle(Node list) {
         if (list == null) return false;
@@ -46,6 +60,32 @@ public class LinkedListAlgo {
         }
 
         return false;
+    }
+
+    public ListNode detectCycle(ListNode head) {
+
+        if (head == null) {
+            return null;
+        }
+
+        ListNode quickNode = head;
+        ListNode slowNode = head;
+
+        while (quickNode != null && quickNode.next != null) {
+            quickNode = quickNode.next.next;
+            slowNode = slowNode.next;
+
+            if (quickNode == slowNode) {
+                quickNode = head;
+                while (quickNode != slowNode) {
+                    quickNode = quickNode.next;
+                    slowNode = slowNode.next;
+                }
+                return slowNode;
+            }
+        }
+
+        return null;
     }
 
     // 有序链表合并
@@ -82,6 +122,30 @@ public class LinkedListAlgo {
             r.next = q;
         }
 
+        return head;
+    }
+
+    public static Node mergeOrderLink(Node a, Node b) {
+        Node result = null;
+        if (a.data > b.data) {
+            result = b;
+            b = b.next;
+        } else {
+            result = a;
+            a = a.next;
+        }
+        Node head = result;
+        while (a.next != null && b.next != null) {
+            if (a.data > b.data) {
+                result.next = b;
+                result = result.next;
+                b = b.next;
+            } else {
+                result.next = a;
+                result = result.next;
+                a = a.next;
+            }
+        }
         return head;
     }
 
@@ -160,6 +224,30 @@ public class LinkedListAlgo {
         public int getData() {
             return data;
         }
+    }
+
+    static class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
+    }
+
+    public static void main(String[] args) {
+//        Node node1 = new Node(3, new Node(6, new Node(8, new Node(12, null))));
+//        Node node2 = new Node(1, new Node(2, new Node(7, new Node(14, new Node(25, null)))));
+//        Node node = mergeOrderLink(node1, node2);
+//        System.out.println();
+
+        LinkedListAlgo linkedListAlgo = new LinkedListAlgo();
+
+        ListNode listNode = new ListNode(1);
+
+        ListNode listNode1 = linkedListAlgo.detectCycle(listNode);
+        System.out.println(listNode1);
     }
 
 }
