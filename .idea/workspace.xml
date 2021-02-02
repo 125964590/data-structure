@@ -2,34 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8481f1cb-30c5-4ca4-98f8-bddc02b11193" name="Default" comment="sort">
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/array/NumberOfSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/graph/DepthFirstSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/graph/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/queue/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/queue/LRUCustomLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/everyday/BalanceBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/everyday/CommonChars_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/everyday/CompareTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/everyday/CourseSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/everyday/DivisorGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/everyday/GetMagicArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/everyday/IntegerBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/everyday/JudgeSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/everyday/MaximumDepthBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/everyday/NextPermutation_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/everyday/RideString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/everyday/StringSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/link/LinkMidleFind_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/PrintInOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/base/array/MoveZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/base/array/RemoveElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort/BigDataSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tool/GenerateUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/link/LinkList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/link/LinkedListAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/link/LinkedListAlgo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/sort/BasicSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/BasicSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/sort/MiddleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/MiddleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/search/binary/BaseBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search/binary/BaseBinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/search/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search/tree/BinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +47,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="UML Sequence" />
         <option value="Class" />
       </list>
     </option>
@@ -105,6 +84,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
     <property name="SearchEverywhereHistoryKey" value="option&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/runtime/options/Option.class&#10;operation&#9;PSI&#9;JAVA://com.sun.corba.se.spi.orb.Operation&#10;Predicate&#9;PSI&#9;JAVA://java.util.function.Predicate" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -134,14 +114,28 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="BalanceBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="everyday.BalanceBinaryTree" />
+  <component name="RunManager" selected="Application.RemoveElement">
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.HeapSort" />
       <module name="data-structure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="everyday.*" />
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.array.RemoveElement" />
+      <module name="data-structure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,14 +162,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="go build CommonChars.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="data-structure" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go/EveryDay/CommonChars.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="data-structure" />
@@ -213,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveElement" />
+        <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Go Test.TestNextPermutation in NextPermutation_test.go" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build CommonChars.go" />
-        <item itemvalue="Application.BalanceBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -270,6 +256,7 @@
       <workItem from="1604968576615" duration="4284000" />
       <workItem from="1608622087157" duration="3926000" />
       <workItem from="1608859526367" duration="1644000" />
+      <workItem from="1611891396681" duration="13896000" />
     </task>
     <task id="LOCAL-00001" summary="sort">
       <created>1539682842573</created>
@@ -292,10 +279,6 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="2240" y="115" key="#Go_Modules_(vgo)" timestamp="1602646957092">
-      <screen x="1920" y="0" width="1440" height="900" />
-    </state>
-    <state x="2240" y="115" key="#Go_Modules_(vgo)/1920.0.1440.900/0.0.1920.1080@1920.0.1440.900" timestamp="1602646957092" />
     <state x="395" y="462" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1608860447277">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -304,63 +287,73 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="608" y="422" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1680.1050@0.0.1680.1050" timestamp="1608860450343" />
-    <state x="608" y="185" key="#go_build_CommonChars.go" timestamp="1602643941371">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2645" y="363" key="#xdebugger.evaluate" timestamp="1611906067566">
+      <screen x="1920" y="0" width="1440" height="900" />
     </state>
-    <state x="608" y="185" key="#go_build_CommonChars.go/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602643941371" />
-    <state x="608" y="185" key="#go_build_main.go" timestamp="1602643978328">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="608" y="185" key="#go_build_main.go/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602643978328" />
-    <state width="583" height="429" key="DebuggerActiveHint" timestamp="1604971959128">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="2645" y="363" key="#xdebugger.evaluate/1920.0.1440.900/0.0.1920.1080@1920.0.1440.900" timestamp="1611906067566" />
+    <state width="500" height="368" key="DebuggerActiveHint" timestamp="1612174813125">
+      <screen x="1920" y="0" width="1440" height="900" />
     </state>
     <state width="583" height="429" key="DebuggerActiveHint/0.0.1680.1050@0.0.1680.1050" timestamp="1604971959128" />
-    <state width="1680" height="338" key="GridCell.Tab.0.bottom" timestamp="1609145622442">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="500" height="368" key="DebuggerActiveHint/1920.0.1440.900/0.0.1920.1080@1920.0.1440.900" timestamp="1612174813125" />
+    <state width="1440" height="280" key="GridCell.Tab.0.bottom" timestamp="1612237032786">
+      <screen x="1920" y="0" width="1440" height="900" />
     </state>
     <state width="1680" height="338" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1608860425031" />
     <state width="1680" height="338" key="GridCell.Tab.0.bottom/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1609145622442" />
-    <state width="1680" height="338" key="GridCell.Tab.0.center" timestamp="1609145622440">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1440" height="280" key="GridCell.Tab.0.bottom/1920.0.1440.900/0.0.1920.1080@1920.0.1440.900" timestamp="1612237032786" />
+    <state width="1440" height="280" key="GridCell.Tab.0.center" timestamp="1612237032777">
+      <screen x="1920" y="0" width="1440" height="900" />
     </state>
     <state width="1680" height="338" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1608860425030" />
     <state width="1680" height="338" key="GridCell.Tab.0.center/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1609145622440" />
-    <state width="1680" height="338" key="GridCell.Tab.0.left" timestamp="1609145622439">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1440" height="280" key="GridCell.Tab.0.center/1920.0.1440.900/0.0.1920.1080@1920.0.1440.900" timestamp="1612237032777" />
+    <state width="1440" height="280" key="GridCell.Tab.0.left" timestamp="1612237032777">
+      <screen x="1920" y="0" width="1440" height="900" />
     </state>
     <state width="1680" height="338" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1608860425030" />
     <state width="1680" height="338" key="GridCell.Tab.0.left/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1609145622439" />
-    <state width="1680" height="338" key="GridCell.Tab.0.right" timestamp="1609145622441">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1440" height="280" key="GridCell.Tab.0.left/1920.0.1440.900/0.0.1920.1080@1920.0.1440.900" timestamp="1612237032777" />
+    <state width="1440" height="280" key="GridCell.Tab.0.right" timestamp="1612237032782">
+      <screen x="1920" y="0" width="1440" height="900" />
     </state>
     <state width="1680" height="338" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1608860425031" />
     <state width="1680" height="338" key="GridCell.Tab.0.right/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1609145622441" />
-    <state width="1680" height="338" key="GridCell.Tab.1.bottom" timestamp="1609145622445">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1440" height="280" key="GridCell.Tab.0.right/1920.0.1440.900/0.0.1920.1080@1920.0.1440.900" timestamp="1612237032782" />
+    <state width="1440" height="280" key="GridCell.Tab.1.bottom" timestamp="1612237032789">
+      <screen x="1920" y="0" width="1440" height="900" />
     </state>
     <state width="1680" height="338" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1608860425033" />
     <state width="1680" height="338" key="GridCell.Tab.1.bottom/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1609145622445" />
-    <state width="1680" height="338" key="GridCell.Tab.1.center" timestamp="1609145622443">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1440" height="280" key="GridCell.Tab.1.bottom/1920.0.1440.900/0.0.1920.1080@1920.0.1440.900" timestamp="1612237032789" />
+    <state width="1440" height="280" key="GridCell.Tab.1.center" timestamp="1612237032788">
+      <screen x="1920" y="0" width="1440" height="900" />
     </state>
     <state width="1680" height="338" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1608860425032" />
     <state width="1680" height="338" key="GridCell.Tab.1.center/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1609145622443" />
-    <state width="1680" height="338" key="GridCell.Tab.1.left" timestamp="1609145622442">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1440" height="280" key="GridCell.Tab.1.center/1920.0.1440.900/0.0.1920.1080@1920.0.1440.900" timestamp="1612237032788" />
+    <state width="1440" height="280" key="GridCell.Tab.1.left" timestamp="1612237032787">
+      <screen x="1920" y="0" width="1440" height="900" />
     </state>
     <state width="1680" height="338" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1608860425032" />
     <state width="1680" height="338" key="GridCell.Tab.1.left/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1609145622442" />
-    <state width="1680" height="338" key="GridCell.Tab.1.right" timestamp="1609145622444">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1440" height="280" key="GridCell.Tab.1.left/1920.0.1440.900/0.0.1920.1080@1920.0.1440.900" timestamp="1612237032787" />
+    <state width="1440" height="280" key="GridCell.Tab.1.right" timestamp="1612237032789">
+      <screen x="1920" y="0" width="1440" height="900" />
     </state>
     <state width="1680" height="338" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1608860425033" />
     <state width="1680" height="338" key="GridCell.Tab.1.right/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1609145622444" />
-    <state x="547" y="234" width="670" height="658" key="search.everywhere.popup" timestamp="1608640058618">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1440" height="280" key="GridCell.Tab.1.right/1920.0.1440.900/0.0.1920.1080@1920.0.1440.900" timestamp="1612237032789" />
+    <state x="2141" y="100" key="SettingsEditor" timestamp="1611902923944">
+      <screen x="1920" y="0" width="1440" height="900" />
+    </state>
+    <state x="2141" y="100" key="SettingsEditor/1920.0.1440.900/0.0.1920.1080@1920.0.1440.900" timestamp="1611902923944" />
+    <state x="2389" y="201" width="670" height="564" key="search.everywhere.popup" timestamp="1612166593123">
+      <screen x="1920" y="0" width="1440" height="900" />
     </state>
     <state x="547" y="234" width="670" height="658" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1608640058618" />
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1608631994116" />
+    <state x="2389" y="201" width="670" height="564" key="search.everywhere.popup/1920.0.1440.900/0.0.1920.1080@1920.0.1440.900" timestamp="1612166593123" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -400,6 +393,21 @@
           <line>97</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tool/GenerateUtils.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/base/array/RemoveElement.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/base/array/RemoveElement.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/src/main/java/everyday/NextPermutation_test.go</url>
           <line>12</line>
@@ -407,26 +415,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateCodeFragment">
-      <expression>
-        <expression-string>ts[1].split(&quot;.&quot;,ts[1].length());</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>str.split( &quot;T&quot;,10);</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="breakpointCondition">
-      <expression>
-        <expression-string>last==6</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>
